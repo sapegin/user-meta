@@ -1,5 +1,5 @@
 const rc = require('rc');
-const { execSync } = require('child_process');
+const execSync = require('child_process').execSync;
 
 const npm = rc('npm', null, []);
 
